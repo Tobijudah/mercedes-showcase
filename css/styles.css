@@ -1,0 +1,126 @@
+@font-face {
+   font-family: 'Mercedes';
+   src: url('../font/CorpA_Cyr_Regular_.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Alegreya Sans', sans-serif;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+
+h1 {
+   font-family: Mercedes;
+}
+
+.text {
+   padding: 4rem 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.text p {
+   font-size: 1.5rem;
+}
+
+.text h1 {
+   font-size: 3.5rem;
+   padding-bottom: 3.5rem;
+}
+
+#container {
+   height: 100vh;
+}
+
+#one {
+   background-image: url('../images/start\ 1.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   width: 100vw;
+   color: rgb(224, 224, 224);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   background-color: #000;
+}
+
+#one h1 {
+   font-size: 8rem;
+   color: #ececec;
+   padding-bottom: 1rem;
+}
+
+#one h2 {
+   font-size: 3rem;
+   color: #dfdfdf;
+}
+
+#one p, #one i {
+   padding-top: auto;
+   color: #dfdfdf;
+
+}
+
+#two {
+   background-color: #3C332C;
+   color: #BFBFB5;
+}
+
+#three {
+   background-color: #1C1C1C;
+   color: #DDDDDD;
+}
+
+#four {
+   background-color: #282F30;
+   color: #D6D9D5;
+}
+
+#five {
+   background-color: #0D1013;
+   color: #B8AAB0;
+}
+
+#six {
+   background-color: #191418;
+   color: #959ba1;
+}
+
+section {
+   height: 100%;
+   position: absolute;
+}
+
+img {
+   width: 100%;
+   max-height: 100vh;
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.alt .image {
+   order: 2;
+}
+
+.alt .text {
+   order: 1;
+}
